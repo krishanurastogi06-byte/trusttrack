@@ -11,9 +11,10 @@ Most donation platforms allow users to send money to NGOs but provide limited or
 TrustTrack is designed as a role-based system where authorization and fund control are enforced on the backend. Donations follow a milestone-based approval flow, allowing NGOs to submit proof of work and enabling admins to approve fund releases. This ensures accountability while giving donors visibility into fund usage.
 
 ## User Roles
-- **Donor:** Views campaigns, donates, tracks fund usage (test@gmail.com)
-- **NGO:** Creates campaigns, submits proofs, requests fund release (testngo@gmail.com)
-- **Admin:** Verifies NGOs, approves milestones, controls fund release (admin@gmail.com)
+- **Donor:** Views campaigns, donates, tracks fund usage
+- **NGO:** Creates campaigns, submits proofs, requests fund release
+- **Admin:** Verifies NGOs, approves milestones, controls fund release
+> Demo accounts are used for role simulation during development.
 
 ## Key Features
 - Role-based authentication (JWT)
